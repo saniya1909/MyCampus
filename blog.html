@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2023</h1>
+
+    </section>
+
+<!--------Blog page content------->
+<section class="blog-content">
+    <div class ="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificates & Online Courses 2023</h2>
+            <p>Welcome to the exciting journey of college life! Starting college can be both thrilling and overwhelming. As you embark on this new chapter, we understand the challenges that lie ahead. This comprehensive guide is designed to help you navigate your college experience successfully, providing valuable insights and tips for making the most of your time on campus.</p><br>
+            <p>1) Choosing the Right Major:
+                One of the most significant decisions you'll make in college is selecting the right major. We'll walk you through the process of exploring your interests, identifying your strengths, and understanding the potential career paths associated with different majors. Additionally, we'll share resources and guidance on how to connect with academic advisors to make an informed decision.
+                <br>
+                2) Adjusting to Campus Life:
+                Leaving the comfort of home and entering a new environment can be daunting. We'll discuss strategies to ease the transition, from getting involved in campus clubs and organizations to forming meaningful connections with peers and faculty. Moreover, you'll find tips for managing your time effectively and maintaining a healthy work-life balance.
+                <br>
+                3) Internships and Career Preparation:
+                    College is an opportune time to kickstart your career journey. We'll guide you through the process of finding internships, crafting a compelling resume, and acing job interviews. Learn about career fairs, networking events, and other opportunities to connect with potential employers.
+                    <br>
+                    4) Balancing Social Life and Academic Demands:
+                    Maintaining a healthy social life while staying on top of your academics can be challenging. We'll discuss strategies to strike a balance between social activities and your studies. Discover how you can enjoy college life to the fullest while keeping your academic goals intact.
+                    <br>
+                    Conclusion:
+                    College life is an incredible experience filled with growth, learning, and new experiences. By utilizing the insights and tips in this comprehensive guide, you'll be better equipped to embrace the challenges and opportunities that come your way. Remember that college is not only about earning a degree but also about exploring your passions, making lifelong friendships, and discovering your true potential. Best of luck on your college journey!</p>
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+    
+                </div>
+        <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Data Science</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Computer Science</span>
+            <span>34</span>
+        </div>
+        <div>
+            <span>Autocad</span>
+            <span>42</span>
+        </div>
+        <div>
+            <span>Journalism</span>
+            <span>22</span>
+        </div>
+        <div>
+            <span>Commerce</span>
+            <span>30</span>
+        </div>
+
+        </div>
+    </div>
+       
+</section>
+
+
+
+<!-----Footer-------->
+<section class="footer">
+    <h4> About Us</h4>
+    <p>Our mission is to empower and inspire students to become leaders, critical thinkers, and compassionate individuals who make a positive impact on society.<br> We strive to offer a diverse and inclusive learning environment that promotes intellectual curiosity, creativity, and innovation.</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-twitter"></i>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+    <!------JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>  
+
+</body>
+</html>
